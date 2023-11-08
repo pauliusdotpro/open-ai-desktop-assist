@@ -1,4 +1,4 @@
-# Desktop AI Assistant
+# Open AI Desktop Assistant
 
 ## About
 This project is an AI-powered desktop assistant that allows users to interact with an AI through voice commands. The assistant can take screenshots of the user's desktop, enabling it to provide context-aware responses. It is built on Python and utilizes the OpenAI API.
@@ -16,36 +16,25 @@ This project is an AI-powered desktop assistant that allows users to interact wi
 ## Installation
 
 1. Clone the repository:
-   \`\`\`
+   ```
    git clone https://github.com/pauliusdotpro/open-ai-desktop-assist
-   \`\`\`
+   ```
 2. Navigate to the cloned directory:
-   \`\`\`
+   ```
    cd open-ai-desktop-assist
-   \`\`\`
+   ```
 3. Install required packages:
-   \`\`\`
+   ```
    pip install -r requirements.txt
-   \`\`\`
-4. Set up the `.env` file with your OpenAI API key and other settings:
-   \`\`\`
-   LANGUAGE="english"
-   API_KEY="your_openai_api_key"
-   VOICE="echo"
-   HOTKEY="shift+ctrl"
-   THINKING_SOUND="path/to/thinking_sound.mp3"
-   GOT_IT_SOUND="path/to/got_it_sound.mp3"
-   HELLO_SOUND="path/to/hello_sound.mp3"
-   REPEAT_SOUND="path/to/repeat_sound.mp3"
-   \`\`\`
-   Replace `your_openai_api_key` with your actual OpenAI API key.
+   ```
+4. Rename `.env.example` to `.env` and setup with your OpenAI API key
 
 ## Usage
 
 1. Run the application:
-   \`\`\`
+   ```
    python app.py
-   \`\`\`
+   ```
 2. Use the default hotkey `Ctrl+Shift` to activate the assistant.
 3. Speak your command, and the assistant will take a screenshot and provide a response.
 
